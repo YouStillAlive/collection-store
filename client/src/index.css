@@ -1,0 +1,47 @@
+footer{
+  user-select: none;
+}
+
+ #root {
+    min-height: 100vh;
+    background-color: rgb(198, 198, 204);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content{
+  height: 80vh;
+}
+
+.auth-bg{
+  background-color:rgb(160, 168, 187);
+}
+
+.google-icon{
+  padding: 0 !important;
+}
+
+.form-control {
+  width: 228px !important;
+}
+
+img:hover {
+  cursor:pointer;
+}
+
+.unblockHover:hover {
+  filter: drop-shadow(0 0px 1px rgb(1, 160, 62));
+}
+
+.blockHover:hover {
+  filter: drop-shadow(0 0px 2px rgb(217, 255, 0));
+}
+
+.deleteHover:hover {
+  filter: drop-shadow(0 0px 1px rgb(255, 0, 0));
+}
+
+.content {
+  flex: 1;
+}
